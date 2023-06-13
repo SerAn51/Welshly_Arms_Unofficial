@@ -143,7 +143,7 @@ footer a:hover {
     color: rgb(140, 140, 140) !important;
 }
 
-.about-us-paragraph {
+.paragraph {
     font-family: 'Noto Serif', serif;
 }
 
@@ -157,6 +157,10 @@ footer a:hover {
 
 .swipe-down {
     display: none;
+}
+
+img.wireframe {
+    height: 70vh;
 }
 
 /* Stili per dispositivi di dimensione inferiore a 768px */
