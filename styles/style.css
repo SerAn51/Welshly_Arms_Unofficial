@@ -1,0 +1,283 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.banner-image {
+    background-image: url('../imgs/banner-image.jpg');
+    background-size: cover;
+    display: flex;
+    /* Abilita il layout Flexbox per il container principale */
+    flex-direction: column;
+    /* Imposta la direzione di layout in verticale */
+    align-items: center;
+    /* Centra gli elementi verticalmente */
+    justify-content: center;
+    /* Centra gli elementi orizzontalmente */
+}
+
+.content-text-center {
+    padding-top: 40vh;
+    padding-bottom: 15vh;
+}
+
+.bg-dark {
+    background-color: rgb(20, 0, 0) !important;
+}
+
+.logo-header {
+    height: 2em;
+    padding-right: 10px;
+}
+
+header {
+    font-size: large;
+}
+
+.navbar a:hover {
+    color: rgb(203, 203, 203) !important;
+}
+
+.nav-item {
+    padding-left: 30px;
+}
+
+h1 {
+    font-size: 10vw !important;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 6vw;
+}
+
+h2#singles-ep {
+    padding-top: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 5vw;
+}
+
+h4 {
+    padding-left: 9vw;
+    font-size: 3vw;
+}
+
+.eventi h5 {
+    padding-left: 9vw;
+    font-size: 2vw;
+}
+
+.event-description {
+    text-align: center;
+}
+
+.about-us-img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.row {
+    padding-bottom: 10vh;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.album-row {
+    padding-bottom: 5vh;
+}
+
+.card {
+    margin: 0 .5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 12px;
+}
+
+.card-img-top {
+    height: 230px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer {
+    height: fit-content;
+    background-color: rgb(20, 0, 0);
+}
+
+footer a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(203, 203, 203) !important;
+}
+
+.footer-logo {
+    height: 15vh;
+}
+
+.nav-separator {
+    font-size: x-large;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.event-poster {
+    width: 100%;
+}
+
+.active {
+    color: rgb(140, 140, 140) !important;
+}
+
+.about-us-paragraph {
+    font-family: 'Noto Serif', serif;
+}
+
+.nav-separator::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 2px;
+    background-color: white;
+}
+
+.swipe-down {
+    display: none;
+}
+
+/* Stili per dispositivi di dimensione inferiore a 768px */
+@media (max-width: 768px) {
+
+    /* Regole CSS specifiche per dispositivi più piccoli */
+    .banner-image {
+        background-color: rgb(20, 0, 0);
+        background-image: url('../imgs/banner-image-mobile.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .band-name {
+        padding-top: 38vh;
+        padding-bottom: 35vh;
+    }
+
+    h2 {
+        text-align: center;
+        padding-top: 100px;
+        font-size: 12vw;
+    }
+
+    h2#singles-ep {
+        padding-top: 20px;
+    }
+
+    h3 {
+        text-align: center;
+        padding-top: 5vh;
+        font-size: 9vw;
+    }
+
+    h4 {
+        font-size: 7vw;
+    }
+
+    .eventi h5 {
+        font-size: 5vw;
+    }
+
+    .nav-separator {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .nav-separator::after {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .scrolldown {
+        display: none;
+    }
+
+    .swipe-down {
+        display: block;
+    }
+}
+
+/* Stili per dispositivi di dimensione tra 768px e 1200px */
+@media (min-width: 768px) and (max-width: 1200px) {
+
+    /* Regole CSS specifiche per dispositivi di medie dimensioni */
+    .banner-image {
+        background-color: rgb(20, 0, 0);
+        background-image: url('../imgs/banner-image-mobile.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .band-name {
+        padding-top: 52vh;
+        padding-bottom: 15vh;
+    }
+
+    h2 {
+        text-align: center;
+        padding-top: 100px;
+        font-size: 12vw;
+    }
+
+    h2#singles-ep {
+        padding-top: 20px;
+    }
+
+    h3 {
+        text-align: center;
+        padding-top: 5vh;
+        font-size: 9vw;
+    }
+
+    h4 {
+        font-size: 7vw;
+    }
+
+    .eventi h5 {
+        font-size: 5vw;
+    }
+
+    .nav-separator {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .nav-separator::after {
+        content: "";
+        display: block;
+        height: 1px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .scrolldown {
+        display: none;
+    }
+
+    .swipe-down {
+        display: block;
+    }
+}
